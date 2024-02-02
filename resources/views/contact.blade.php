@@ -13,5 +13,6 @@
     <h1>Contact Page</h1>
     <hr>
     {{$company}}
+    {{$name}}
 </body>
 </html>
