@@ -8,7 +8,9 @@ class Contact extends Controller
 {
     public function index(Request $r)
     {
-        $data['company'] = 'Cambodia store';
+        $name = 'sambath theara';
+        $data =['name'=>$name,'company'=>'Cambodia store'];
+        // $data['company'] = 'Cambodia store';
         return view('contact', $data);
     }
 }
