@@ -8,8 +8,10 @@
 <body>
     <a href="{{url('/')}}">Home</a> |
     <a href="{{url('contact')}}">Contact</a> |
-    <a href="{{url('about')}}">About</a>
-    <a href="{{url('register')}}">Register</a>
+    <a href="{{url('about')}}">About</a>|
+    <a href="{{url('register')}}">Register</a>|
+    <a href="{{url('product')}}">Sell product</a>|
+    <a href="{{url('upload')}}">Upload File</a>
     <h1>Home Page</h1>
     <hr>
     <h3>This is home page!</h3>

@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\App;
+// use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,3 +27,18 @@ Route::get('/', function () {
  //post route
 
  Route::post('register/save',[\App\Http\Controllers\RegisterContriller::class,'save']);
+
+
+//product sell
+
+Route::get('product', [\App\Http\Controllers\ProductController::class,'index']);
+Route::post('product/sell',[\App\Http\Controllers\ProductController::class,'sell']);
+
+//upload file
+Route::get('upload', [\App\Http\Controllers\UploadController::class, 'index']);
+Route::post('upload/save', [\App\Http\Controllers\UploadController::class, 'save']);
+
+
+
+
+
